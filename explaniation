@@ -1,0 +1,9 @@
+Sorting algorithms are ways to put data in a dedicated order, like from least to most or from most to least. To see which one worked better, we used Bubble Sort and Selection Sort to sort the heights provieded by the user.
+Bubble Sort works by comparing two elements next to each other over and over again and switching them if they are not in the right order. After each pass, the biggest item "bubbles up" to the end of the list. 
+This process keeps going until the list is all sorted. In our example, Bubble Sort had to go through the list several times to move the taller students to the right side. It's easy to understand and use Bubble 
+Sort, but it doesn't work well with large datasets because it makes too many comparisons and swaps. Bubble Sort did 10 comparisons and 6 swaps for 5 different heights.
+Selection Sort works in a different way. It doesn't keep swapping elements that are next to each other. Instead, it finds the smallest element in the part of the list that isn't sorted and puts it in the right spot.
+For each pass, there is only one swap. In other words, Selection Sort is better at making swaps, but it still does the same number of comparisons as Bubble Sort. Selection Sort had to make 10 comparisons and only 4 
+swaps in our example.Bubble Sort is easier to understand than the other algorithm, but it doesn't work as well because it swaps things a lot. Selection Sort makes fewer swaps, which can be good when it costs a lot 
+to swap things. But both algorithms take O(n²) time, so they aren't good for large datasets.Merge Sort and Quick Sort are better algorithms to use in the real world. On the other hand, Bubble Sort and Selection
+Sort are important to learn because they make it easy to understand how sorting works.
