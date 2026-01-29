@@ -1,0 +1,28 @@
+def bubble_sort(arr):
+    comparisons = 0
+    swaps = 0
+    n = len(arr)
+
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            comparisons += 1
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swaps += 1
+
+    return arr, comparisons, swaps
+
+
+# Take input
+heights = []
+print("Enter 5 heights:")
+for i in range(5):
+    h = int(input(f"Height {i+1}: "))
+    heights.append(h)
+
+sorted_heights, comparisons, swaps = bubble_sort(heights.copy())
+
+print("\nBubble Sort Result:")
+print("Sorted heights:", sorted_heights)
+print("Comparisons:", comparisons)
+print("Swaps:", swaps)
