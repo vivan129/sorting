@@ -9,6 +9,7 @@ Notes/documentation project containing reference material and artifacts.
 - `CONTRIBUTING.md`
 - `bubble sort`
 - `README.md`
+- `docs/PROJECT_CONTEXT.md`
 - `QUICKSTART.md`
 - `LICENSE`
 
